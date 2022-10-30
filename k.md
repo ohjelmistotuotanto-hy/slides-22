@@ -13,3 +13,29 @@
 # Scrum
 
 ![](../ohjelmistotuotanto-hy.github.io/images/2-1.png){ width=440 }
+
+#
+
+# Ohjelmistotekniikka
+
+#
+
+![](./images/todo1.png){ width=440 }
+
+# Sekvenssikaavio
+
+Mitä tapahtuu, kun maksukortilla jolla on rahaa 3 euroa, ostataan edullinen lounas?
+
+```python
+class Kassapaate:
+    def __init__(self):
+        self.EDULLISEN_HINTA = 2.5
+
+    def syo_edullisesti(self, kortti: Maksukortti):
+        if kortti.saldo < self.EDULLISEN_HINTA:
+            return False
+
+        kortti.ota_rahaa(self.EDULLISEN_HINTA):
+        self.edulliset += 1
+        return True
+```
