@@ -1,2 +1,2 @@
 #!/bin/sh
-make -f k
+make -f 2
