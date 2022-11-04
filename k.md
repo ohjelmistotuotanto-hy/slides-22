@@ -14,28 +14,17 @@
 
 ![](../ohjelmistotuotanto-hy.github.io/images/2-1.png){ width=440 }
 
-#
+# Vaatimusmäärittely 2010-luvulla: Lean startup
 
-# Ohjelmistotekniikka
+![](../ohjelmistotuotanto-hy.github.io/images/2-3.png){ width=200 }
 
-#
+# User story
 
-![](./images/todo1.png){ width=440 }
+- Mike Cohn:
 
-# Sekvenssikaavio
+  - _A user story describes functionality that will be valuable to either user or purchaser of software._
 
-Mitä tapahtuu, kun maksukortilla jolla on rahaa 3 euroa, ostataan edullinen lounas?
-
-```python
-class Kassapaate:
-    def __init__(self):
-        self.EDULLISEN_HINTA = 2.5
-
-    def syo_edullisesti(self, kortti: Maksukortti):
-        if kortti.saldo < self.EDULLISEN_HINTA:
-            return False
-
-        kortti.ota_rahaa(self.EDULLISEN_HINTA):
-        self.edulliset += 1
-        return True
-```
+- User stories are composed of three aspects:
+  1. A written description of the story, used for planning and reminder
+  2. Conversations about the story to serve to flesh the details of the story
+  3. Tests that convey and document details and that will be used to determine that the story is complete
