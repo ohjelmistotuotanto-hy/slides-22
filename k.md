@@ -28,3 +28,7 @@
   1. A written description of the story, used for planning and reminder
   2. Conversations about the story to serve to flesh the details of the story
   3. Tests that convey and document details and that will be used to determine that the story is complete
+
+# WIP-rajoitteet
+
+![](./images/2-25b.png){ width=300 }
