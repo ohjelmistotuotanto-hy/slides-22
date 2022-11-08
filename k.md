@@ -37,6 +37,14 @@
 
 # luento 4
 
+#
+
+![](../ohjelmistotuotanto-hy.github.io/images/2-9.png){ width=350 }
+
 # WIP-rajoitteet
 
 ![](./images/2-25b.png){ width=300 }
+
+#
+
+![](../ohjelmistotuotanto-hy.github.io/images/2-23.jpg){ width=450 }
