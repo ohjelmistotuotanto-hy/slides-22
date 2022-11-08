@@ -6,13 +6,19 @@
 
 ![](https://raw.githubusercontent.com/mluukkai/ohjelmistotekniikka-kevat2019/master/web/images/l-1.png){ width=440 }
 
+# luento 1
+
 # Iteratiivinen ohjelmistokehitys
 
 ![](../ohjelmistotuotanto-hy.github.io/images/1-4.png){ width=400 }
 
+# luento 2
+
 # Scrum
 
 ![](../ohjelmistotuotanto-hy.github.io/images/2-1.png){ width=440 }
+
+# luento 3
 
 # Vaatimusmäärittely 2010-luvulla: Lean startup
 
@@ -28,6 +34,8 @@
   1. A written description of the story, used for planning and reminder
   2. Conversations about the story to serve to flesh the details of the story
   3. Tests that convey and document details and that will be used to determine that the story is complete
+
+# luento 4
 
 # WIP-rajoitteet
 
