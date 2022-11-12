@@ -48,3 +48,35 @@
 #
 
 ![](../ohjelmistotuotanto-hy.github.io/images/2-23.jpg){ width=450 }
+
+# luento 5
+
+#
+
+- _Yksikkötestaus_ (unit testing)
+- _Integraatiotestaus_ (integration testing)
+- _Järjestelmätestaus_ (system testing)
+- _Käyttäjän hyväksymistestaus_ (user acceptance testing)
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-3.png){ width=300 }
+
+# Ohtuvarasto: tyhjä, puolitäysi, täysi
+
+```python
+class Varasto
+    def __init__(self, tilavuus, alku_saldo = 0):
+        self.tilavuus = tilavuus
+        self.saldo = alkusalto
+
+    def ota_varastosta(self, maara):
+        if maara < 0:
+            return 0.0
+
+        if maara > self.saldo:
+            kaikki_mita_voidaan = self.saldo
+            self.saldo = 0.0
+            return kaikki_mita_voidaan
+
+        self.saldo = self.saldo - maara
+        return maara
+```
