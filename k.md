@@ -80,3 +80,33 @@ class Varasto
         self.saldo = self.saldo - maara
         return maara
 ```
+
+# luento 6
+
+# Test driven development (TDD)
+
+![](../ohjelmistotuotanto-hy.github.io/images/lu3-4.png){ width=340 }
+
+# Riippuvuudet testeissä: dependency injection
+
+![](images/di-laskin3.png){ width=400 }
+
+# Mock-kirjastot
+
+- Kaupan metodin _maksa_ pitää tehdä _tilisiirto_ kutsumalla _Pankin_ metodia
+
+![](images/mock1.png){ width=400 }
+
+# Testit asiakkan kielellä
+
+![](images/robot1.png){ width=400 }
+
+- _Input Credentials_, _Output should contain_ ym avainsanoja
+
+#
+
+![](../ohjelmistotuotanto-hy.github.io/images/lu3-8.png){ width=400 }
+
+#
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-12.png){ width=400 }
