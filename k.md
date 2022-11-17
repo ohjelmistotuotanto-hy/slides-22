@@ -153,3 +153,6 @@ class Varasto
 # Yhteenveto - ketterän testauksen nelikettä
 
 ![](../ohjelmistotuotanto-hy.github.io/images/3-20.png){ width=400 }
+
+# luento 8
+
