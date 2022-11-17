@@ -110,3 +110,46 @@ class Varasto
 #
 
 ![](../ohjelmistotuotanto-hy.github.io/images/3-12.png){ width=400 }
+
+# Luento 7
+
+# Blue-green-deployment
+
+![](./images/bg2.png){ width=400 }
+
+
+- Uusi ominaisuus deployataan ensin passiiviseen ympäristöön
+- ja sitä testataan
+  - osa liikenteestä ohjataan aktiivisen lisäksi passiiviseen ympäristöön ja varmistetaan, että toiminta odotettua
+
+# Canary release
+
+- _Canary-releasessa_ uuden ominaisuuden sisältävään ympäristöön ohjataan osa järjestelmän käyttäjistä
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-15.png){ width=400 }
+
+
+- Uuden ominaisuuden sisältämää versiota _monitoroidaan_ 
+  - jos ei ongelmia  ohjataan kaikki liikenne uuteen versioon
+
+- Ongelmatilanteissa palautetaan käyttäjät aiempaan, toimivaksi todettuun versioon
+
+# Feature branchit
+
+- Uusi ominaisuus, esim. user story toteutetaan ensin omaan versionhallinnan haaraansa
+
+![](./images/feature-branch4.png){ width=400 }
+
+  - ja ominaisuuden valmistuttua haara mergetään pääkehityshaaraan
+
+# Trunk based development
+
+- Uusi trendi _trunk based development_: pitkäikäisiä feature brancheja ei käytetä ollenkaan
+  - Kaikki koodi suoraan pääkehityshaaraan
+  - ... josta käytetään nimitystä _trunk_
+
+![](./images/trunk.png){ width=400 }
+
+# Yhteenveto - ketterän testauksen nelikettä
+
+![](../ohjelmistotuotanto-hy.github.io/images/3-20.png){ width=400 }
