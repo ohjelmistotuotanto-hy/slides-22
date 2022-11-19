@@ -154,5 +154,16 @@ class Varasto
 
 ![](../ohjelmistotuotanto-hy.github.io/images/3-20.png){ width=400 }
 
-# luento 8
+# Luento 8
 
+# Kerrosarkkitehtuuri 
+
+- _Kerros_ on kokoelma toisiinsa liittyviä olioita, jotka muodostavat toiminnallisuuden suhteen loogisen kokonaisuuden
+
+![](../ohjelmistotuotanto-hy.github.io/images/4-1.png){ width=200 }
+
+# Mikropalveluarkkitehtuuri
+
+- sovellus koostataan useista (jopa sadoista) pienistä verkossa toimivista autonomisista palveluista 
+
+![](../ohjelmistotuotanto-hy.github.io/images/lu8-1.png){ width=250 }
