@@ -126,7 +126,7 @@ class Varasto
 
 - _Canary-releasessa_ uuden ominaisuuden sisältävään ympäristöön ohjataan osa järjestelmän käyttäjistä
 
-![](../ohjelmistotuotanto-hy.github.io/images/3-15.png){ width=400 }
+![](./images/canary.png){ width=400 }
 
 
 - Uuden ominaisuuden sisältämää versiota _monitoroidaan_ 
