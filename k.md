@@ -167,3 +167,13 @@ class Varasto
 - sovellus koostataan useista (jopa sadoista) pienistä verkossa toimivista autonomisista palveluista 
 
 ![](../ohjelmistotuotanto-hy.github.io/images/lu8-1.png){ width=250 }
+
+# Laadukas koodi
+
+- Laadukkaalla koodilla joukko yhteneviä ominaisuuksia, tai _laatuattribuutteja_, esim. seuraavat:
+  - kapselointi
+  - korkea koheesion aste
+  - riippuvuuksien vähäisyys 
+  - toisteettomuus
+  - testattavuus
+  - selkeys
