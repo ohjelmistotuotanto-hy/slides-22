@@ -177,3 +177,9 @@ class Varasto
   - toisteettomuus
   - testattavuus
   - selkeys
+
+# luento 9
+
+# Lean thinking houste
+
+![](../ohjelmistotuotanto-hy.github.io/images/5-1.png){ width=300 }
