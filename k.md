@@ -183,3 +183,17 @@ class Varasto
 # Lean thinking houste
 
 ![](../ohjelmistotuotanto-hy.github.io/images/5-1.png){ width=300 }
+
+# luento 10
+
+# SaFe
+
+![](../ohjelmistotuotanto-hy.github.io/images/lu10-2.png){ width=450 }
+
+# LeSS
+
+![](../ohjelmistotuotanto-hy.github.io/images/5-6.png){ width=430 }
+
+# Spotify
+
+![](../ohjelmistotuotanto-hy.github.io/images/5-17.png){ width=350 }
