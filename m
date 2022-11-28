@@ -1,3 +1,3 @@
 #!/bin/sh
-make -f 10
+make -f 9
 make -f k
